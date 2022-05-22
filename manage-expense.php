@@ -9,6 +9,7 @@ if (strlen($_SESSION['detsuid']==0)) {
 //code deletion
 if(isset($_GET['delid']))
 {
+	
 $rowid=intval($_GET['delid']);
 $data1=[':rowid'=>$rowid];
 $query='delete from tblexpense where ID=:rowid';

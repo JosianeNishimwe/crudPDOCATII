@@ -15,6 +15,7 @@ if(isset($_POST['submit']))
     $stat=prepare($ret);
     $stat->execute($data);
 
+	
     $result=$stat->fetch(PDO::FETCH_OBJ);
     if($result>0){
 $msg="This email  associated with another account";
