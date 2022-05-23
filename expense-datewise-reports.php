@@ -7,6 +7,7 @@ if (strlen($_SESSION['detsuid']==0)) {
   } else{
 
   
+	
 
   ?>
 <!DOCTYPE html>
