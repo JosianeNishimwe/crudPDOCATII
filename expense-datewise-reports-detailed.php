@@ -5,10 +5,7 @@ include('conn.php');
 if (strlen($_SESSION['detsuid']==0)) {
   header('location:logout.php');
   } else{
-
-  
-
-  ?>
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
