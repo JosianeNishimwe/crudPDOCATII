@@ -11,7 +11,8 @@ for ($x=1; $x <=5 ; $x++) {
 	if ($x==5) {
 		for ($g=1; $g <=5 ; $g++) { 
 	for ($p=1; $p <=$g ; $p++) { 
-	print("*");
+	print("*"); 
+	
 	}
 	echo "<br>";
 	if ($g==5) {
